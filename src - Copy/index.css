@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  background-color: teal;
+  justify-content: space-between;
+}
+nav .logo h1 {
+  color: yellow;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 10px;
+  color: white;
+}
+header {
+  height: 60vh;
+  background-color: gray;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+header .hero {
+  color: white;
+  font-size: 25px;
+}
+footer{
+  background-color: lawngreen;
+}
